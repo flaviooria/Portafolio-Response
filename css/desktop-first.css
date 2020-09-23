@@ -34,11 +34,51 @@ moviles: 320px - 480px */
     .hero {
         flex-wrap: wrap;
     }
+
+    .project {
+        display: block;
+    }
+
+    .project-details {
+        width: auto;
+        /*font-size: 16px; por defecto 1em = a 16px*/
+    }
+
+    .project-title {
+        font-size: 1.5em;
+        margin: 0 0 .3em;
+    }
+
+    .project-course {
+        font-size: .8em;
+    }
+
+    .project-date, .project-link {
+        font-size: 1em;
+    }
+
+    .project-course, .project-date, .project-link {
+        margin: .5em 0;
+    }
+
+    .project-description {
+        font-size: .8em;
+    }
+    
+    .project-imageContainer {
+        width: auto;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .hero {
         flex-wrap: wrap;
+    }
+
+    .project-details {
+        width: auto;
+        font-size:12px ;
     }
 }
 

@@ -112,12 +112,12 @@ h2 {
 }
 
 .project-details {
-    width: 500px;
+    width: 50%;
 }
 
 .project-title {
     font-size: 30px;
-    margin:0 0 10px;
+    margin: 0 0 10px;
 }
 
 .project-course {
@@ -134,9 +134,12 @@ h2 {
 }
 
 .project-imageContainer {
-    width: 500px;
+    width: 50%;
 }
 
+.project-imageContainer img {
+    max-width: 100%;
+}
 
 .experiencie-list-title {
     margin-left: 20px;
