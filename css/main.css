@@ -1,0 +1,268 @@
+body {
+    font-family: 'Roboto',
+    sans-serif;
+    margin: 0;
+}
+
+
+.header {
+    background-color:#1b2127;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    flex:1;
+    max-width: 1000px;
+    margin:0 auto;
+    display: inherit;
+    height: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    flex-wrap: inherit;
+}
+
+.header img {
+    height:50px ;
+}
+
+figure {
+    margin:0;
+}
+
+.menu {
+    height: inherit;
+}
+
+.menu ol, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: inherit;
+}
+
+.menu ol {
+    display: flex;
+    height: inherit;
+}
+
+.link {
+    color:white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.hero {
+    height: 300px;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+}
+
+.hero h1 {
+    letter-spacing: -.2px;
+    font-size: 30px;
+    line-height: 1.5;
+    color:white;
+    margin: 0;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.hero span {
+    color:blueviolet;
+}
+
+.hero-image {
+    object-fit: cover;
+}
+
+.portfolio {
+    background:#fafafa;
+    padding: 20px;
+}
+
+h2 {
+    color: #026fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    margin-bottom: 40px;
+}
+
+.project {
+    border: solid gray 1px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding:20px;
+    margin: 10px 10px 15px;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project-details {
+    width: 500px;
+}
+
+.project-title {
+    font-size: 30px;
+    margin:0 0 10px;
+}
+
+.project-course {
+    margin:10px 0;
+    font-size:15px;
+}
+
+.project-date, .project-link {
+    margin:10px 0;
+}
+
+.project-description {
+    font-size: 20px;
+}
+
+.project-imageContainer {
+    width: 500px;
+}
+
+
+.experiencie-list-title {
+    margin-left: 20px;
+}
+
+.experiencie-list {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.experiencie {
+    margin: 10px;
+    width: 480px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: rgb(220, 250, 250);
+}
+
+.experiencie-image {
+    width: 480px;
+    height: 200px;
+    object-fit:cover;
+}
+
+.experiencie-detail {
+    margin: 20px 40px;
+    background-color: white;
+    margin-top: -40px;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.experiencie-description {
+    text-align: left;
+}
+
+.experiencie-url {
+    border:#026fff 1px solid;
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    color:#026fff;
+}
+
+.contact {
+    background-color: #056fff;
+    color:white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-email {
+    padding:0px 10px;
+}
+
+.form-email input {
+    padding: 5px 25px;
+    border-radius: 5px;
+    border:  gray;
+    border-style: solid;
+    background-image: url('../assets/images/envelope.svg ');
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.form-email button {
+    display: block;
+    color: white;
+    background-color: transparent;
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px 0;
+    margin-top: 10px;
+    outline: none;
+    text-decoration: none;   
+}
+
+.social-link {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-size: 70px 70px;
+    margin: 0 15px;
+}
+
+.social-link.facebook {
+    background-image: url('../assets/social-media/facebook.png');
+    background-color:white;
+    border-radius: 10px;
+} 
+
+.social-link.twitter {
+    background-image: url('../assets/social-media/twitter.png');
+    background-color: white;
+    border-radius: 10px;
+}
+
+.social-link.instagram {
+    background-image: url('../assets/social-media/insta.png');
+    background-color: white;
+    border-radius: 10px;
+}
+
+.social-link.github {
+    background-image: url('../assets/social-media/github.png');
+    background-color: white;
+    border-radius: 10px;
+}
+
+.footer {
+    background: #1b2127;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer img {
+    width: 80px;
+    vertical-align: middle;
+}
