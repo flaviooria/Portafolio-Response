@@ -4,7 +4,29 @@ tablet:768px - 1024px
 moviles: 320px - 480px */
 
 @media screen and (max-width: 1024px) {
+    .hero {
+        flex-wrap: wrap;
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        padding: 2em;
+    }
 
+    .hero h1 {
+        font-size: 1.5em;
+        z-index: 2;
+    }
+
+    .hero-image {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        /* coloco todas las direcciones para que la imagen ocupe todo el ancho*/
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -33,6 +55,10 @@ moviles: 320px - 480px */
 
     .hero {
         flex-wrap: wrap;
+    }
+
+    .hero h1 {
+        font-size: 1.5em;
     }
 
     .project {
@@ -92,6 +118,10 @@ moviles: 320px - 480px */
         flex-wrap: wrap;
     }
 
+    .hero h1 {
+        font-size: 1em;
+    }
+
     .project-details {
         width: auto;
         font-size:12px ;
@@ -126,5 +156,6 @@ moviles: 320px - 480px */
 @media screen and (max-width: 320px) {
     .hero {
         flex-wrap: wrap;
+        padding: 2em 1em;
     }
 }
