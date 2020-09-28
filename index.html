@@ -7,11 +7,13 @@
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/desktop-first.css">
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
 
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <i class="icon-menu"></i>
     <header class="header">
         <div class="wrapper">
             <figure class="logo">
@@ -35,7 +37,7 @@
     <section class="hero">
         <div class="wrapper">
             <h1>Hola soy <span><b>Flavio Oria </b></span> <br>estudiante de <span><b>Desarrollo FrontEnd</b></span> y <br>me encanta todo lo referente al <span>diseño</span>.</h1>
-            <img src="assets/images/hero.jpg" class="hero-image" alt="imagen de portada"> 
+            <img src="assets/images/hero.jpg" class="hero-image" alt="imagen de portada">
         </div>
     </section>
     <section id="portafolio" class="portfolio">
@@ -83,55 +85,58 @@
             </article>
         </div>
     </section>
-    <div class="wrapper"> 
+    <div class="wrapper">
         <h2 class="experiencie-list-title">Mas Sobre mi experiencia</h2>
     </div>
-    <div class="wrapper">
         <section id="experiencia" class="experiencie-list">
-            <article class="experiencie">
-                <figure class="experiencie-imageContainer">
-                    <img class="experiencie-image" src="assets/images/platzi-conf.jpg"  alt="confe">
-                </figure>
-                <div class="experiencie-detail">
-                    <h3 class="experiencie-title">PlatziConf España 2020</h3>
-                    <p class="experiencie-description">El evento mas grande sobre gente que quiere aprender más de internet.</p>
-                    <a class="experiencie-url" href="">Ver Platica</a>
-                </div>
-            </article>
-            <article class="experiencie">
-                <figure class="experiencie-imageContainer">
-                    <video class="html-video" src="assets/video/f8.mp4" width="1280" height="720" controls="true" poster="assets/images/f8.JPG"></video>
-                </figure>
-                <div class="experiencie-detail">
-                    <h3 class="experiencie-title">PlatziConf España 2020</h3>
-                    <p class="experiencie-description">El evento mas grande sobre gente que quiere aprender más de internet.</p>
-                    <a class="experiencie-url" href="">Ver Platica</a>
-                </div>
-            </article>
-            <article class="experiencie">
-                <figure class="experiencie-imageContainer">
-                    <img class="experiencie-image" src="assets/images/platzi-conf.jpg" width="500" alt="confe">
-                </figure>
-                <div class="experiencie-detail">
-                    <h3 class="experiencie-title">PlatziConf España 2020</h3>
-                    <p class="experiencie-description">El evento mas grande sobre gente que quiere aprender más de internet.</p>
-                    <a class="experiencie-url" href="">Ver Platica</a>
-                </div>
-            </article>
-            <article class="experiencie">
-                <figure class="experiencie-imageContainer">
-                    <iframe class="video-insertado" width="560" height="315" src="https://www.youtube.com/embed/LoKvxCSZw5w" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; wencrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </figure>
-                <div class="experiencie-detail">
-                    <h3 class="experiencie-title">PlatziConf España 2020</h3>
-                    <p class="experiencie-description">El evento mas grande sobre gente que quiere aprender más de internet.</p>
-                    <a class="experiencie-url" href="">Ver Platica</a>
-                </div>
-            </article>
+            <div class="wrapper">
+                <article class="experiencie">
+                    <figure class="experiencie-imageContainer">
+                        <img class="experiencie-image" src="assets/images/platzi-conf.jpg" alt="confe">
+                    </figure>
+                    <div class="experiencie-detail">
+                        <h3 class="experiencie-title">PlatziConf España 2020</h3>
+                        <p class="experiencie-description">El evento mas grande sobre gente que quiere aprender más de internet.</p>
+                        <a class="experiencie-url" href="">Ver Platica</a>
+                    </div>
+                </article>
+                <article class="experiencie">
+                    <figure class="experiencie-imageContainer">
+                        <video class="html-video" src="assets/video/f8.mp4" width="1280" height="720" controls="true" poster="assets/images/f8.JPG"></video>
+                        <!-- <img class="experiencie-image" src="assets/images/platzi-conf.jpg" alt="confe"> -->
+                    </figure>
+                    <div class="experiencie-detail">
+                        <h3 class="experiencie-title">PlatziConf España 2020</h3>
+                        <p class="experiencie-description">El evento mas grande sobre gente que quiere aprender más de internet.</p>
+                        <a class="experiencie-url" href="">Ver Platica</a>
+                    </div>
+                </article>
+                <article class="experiencie">
+                    <figure class="experiencie-imageContainer">
+                        <div class="flexible-video">
+                        <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/LoKvxCSZw5w" frameborder="0"
+                            allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                        <!-- <img class="experiencie-image" src="assets/images/platzi-conf.jpg" width="500" alt="confe"> -->
+                    </figure>
+                    <div class="experiencie-detail">
+                        <h3 class="experiencie-title">PlatziConf España 2020</h3>
+                        <p class="experiencie-description">El evento mas grande sobre gente que quiere aprender más de internet.</p>
+                        <a class="experiencie-url" href="">Ver Platica</a>
+                    </div>
+                </article>
+                <article class="experiencie">
+                    <figure class="experiencie-imageContainer">
+                        <img class="experiencie-image" src="assets/images/platzi-conf.jpg" alt="confe">
+                    </figure>
+                    <div class="experiencie-detail">
+                        <h3 class="experiencie-title">PlatziConf España 2020</h3>
+                        <p class="experiencie-description">El evento mas grande sobre gente que quiere aprender más de internet.</p>
+                        <a class="experiencie-url" href="">Ver Platica</a>
+                    </div>
+                </article>
+            </div>
         </section>
-    </div>
     <section id="contacto" class="contact">
         <div class="wrapper">
             <form class="form-email" action="post">
@@ -146,7 +151,7 @@
                 <a href=""  class="social-link instagram"></a>
             </div>
         </div>
-    </section> 
+    </section>
     <footer class="footer">
         <div>
             <p>Curso de Desarrollo Web 2020. <img src="assets/images/platzi.png" alt="logito"></p>
