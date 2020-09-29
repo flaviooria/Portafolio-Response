@@ -15,6 +15,22 @@ body {
     flex-wrap: wrap;
 }
 
+.burger-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:rgba(7, 29, 58, 0.2);
+    display: none;
+    line-height:40px ; /*nos servira para centrar verticalmente nuestro elemento igual a su alto*/
+    text-align: center; /* centro horizontal*/
+    position: fixed;
+    z-index: 4;
+    left: 10px;
+    top:10px;
+    color: white;
+    font-size: 1.2em;
+}
+
 .wrapper {
     flex:1;
     max-width: 1000px;
@@ -188,6 +204,30 @@ h2 {
     text-decoration: none;
     color:#026fff;
 }
+
+.html-video {
+    max-width: 100%;
+    height: auto;
+}
+
+.youtube-video {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.flexible-video {
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+    background: blue;
+    position: relative;
+}
+
 
 .contact {
     background-color: #056fff;
