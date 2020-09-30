@@ -47,6 +47,24 @@ moviles: 320px - 480px */
         justify-content: center;
     }
 
+    .menu {
+        position: fixed;
+        background-color: rgba(5,111,255,.9);
+        z-index: 3;
+        top: 0;
+        left: -100vw;
+        width: 100vw;/*ocupara todo el ancho de la ventana*/
+        bottom: 0; /* podria ser el vh pero no se podria centrar asi que utilizamos el bottom*/ 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .3s;
+    }
+
+    .menu .is-active {
+        left: 0;
+    }
+
     .menu ol {
         display: block; /* o puede ser initial*/
     }
@@ -57,6 +75,12 @@ moviles: 320px - 480px */
 
     .link {
         justify-content: center;
+        height: 30px;
+        font-size: 1.5em;
+        cursor: pointer;
+        border: 3px solid white;
+        margin: 0;
+        padding: 0;
     }
 
     .hero {
