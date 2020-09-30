@@ -61,7 +61,7 @@ moviles: 320px - 480px */
         transition: .3s;
     }
 
-    .menu .is-active {
+    .menu.is-active { /*cuando ponemos los puntos juntos signifca que ese mismo element hara lo que le indica los valores que tiene*/
         left: 0;
     }
 
