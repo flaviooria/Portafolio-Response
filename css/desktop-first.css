@@ -29,6 +29,10 @@ moviles: 320px - 480px */
         width: 100%;
     }
 
+    .portfolio {
+        padding: 0;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
